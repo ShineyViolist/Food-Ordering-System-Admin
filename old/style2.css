@@ -1,0 +1,67 @@
+input ::placeholder{
+    color: rgb(139, 0, 0);
+}
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Times New Roman';
+    background-color: rgb(7, 22, 51);
+    color:rgb(117, 161, 243)
+}
+
+.container{
+    width: 80%;
+    border: 1px solid blue;
+    margin: 0 auto;
+    background-color: darkgreen;
+}
+
+.logo{
+    border: 1px solid blue;
+    width: 40%;
+    float: left;
+
+}
+
+.dummy{
+    border: 1px solid blue;
+    float: none;
+    clear: both;
+    width: 100%
+}
+
+.menu ul{
+    border: 1px solid blue;
+    list-style-type: none;
+
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+
+}
+
+.menu{
+    line-height: 370px;
+}
+
+.searchSection{
+    background-image: url(./assets/search_IMG.png); 
+    background-size: cover;
+    background-position: center;
+    padding: 50% 0;
+    color: purple;
+    background-color: rgb(255, 68, 0);
+}
+
+.foodDisplay{
+    padding: 500%;
+}
+
+.orderSelection{
+    background: rgb(162, 185, 185);
+    padding: 4% 0;
+}
+

@@ -1,0 +1,124 @@
+*{
+   margin: 0 0;
+   padding: 0 0;
+   font-family: 'Courier New', Courier, monospace; 
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;    
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*Styles for navbar section*/
+.navbar{
+    text-align: center;
+    border-bottom: 1px solid black;
+    background: rgb(0, 88, 117);
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(106, 206, 236)
+}
+
+.navbar ul li a:hover{
+    color:darkslateblue;
+    font-weight: bold;
+}
+
+.b-primary{
+    background-color:cornflowerblue;
+    border-radius: 20;
+    padding: 20;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.adminTbl{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 2%;
+    text-align:left;
+}
+
+table tr td{
+    padding: 2%;
+}
+
+.bUpdate{
+    text-decoration: none;
+    color:darkblue;
+    background-color:rgb(203, 242, 255);
+    border-radius: 20px;
+    padding: 10;
+}
+
+.bUpdate:hover{
+    background-color: dodgerblue;
+    color:white;
+}
+
+.bDelete{
+    text-decoration: none;
+    color:rgb(216, 17, 17);
+    background-color:rgb(248, 135, 135);
+    border-radius: 20px;
+    padding: 10;
+}
+
+.bDelete:hover{
+    background-color: rgb(255, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent{
+    background-color: rgb(171, 207, 243);
+    padding: 3%;
+}
+
+.submitButton{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color:white
+}
+
+.success_message{
+    background-color: rgb(113, 187, 152);
+    padding: 1%;
+    display: block;
+    color:rgb(255, 255, 255)
+}
+
+.failure_message{
+    background-color: rgb(253, 66, 66);
+    padding: 1%;
+    display: block;
+    color:rgb(255, 255, 255)
+}
+
